@@ -1,0 +1,167 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+.main-container {
+  width: 550px;
+  height: 719px;
+  margin: 40px auto;
+  background: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.heading-box {
+  width: 100%;
+  height: 190px;
+  background: #3a69d2;
+  text-align: center;
+}
+.heading {
+  width: 354px;
+  height: 40px;
+  margin: 59px auto auto;
+  font: normal 800 40px "Inter", sans-serif;
+  letter-spacing: -0.02em;
+  color: #ffff;
+}
+.heading-p {
+  width: 408px;
+  height: 30px;
+  margin: 16px 50px 16px 85px;
+  font: normal 200 16px "Inter", sans-serif;
+  color: #ffff;
+}
+.services-container {
+  width: 473px;
+  height: 45px;
+  margin: 30px auto;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+.services-btns {
+  width: 143.17px;
+  height: 100%;
+  padding: 9px 13px;
+  border: none;
+  border-radius: 7px;
+  font: normal 500 14px "Inter", sans-serif;
+  background: #d1d4f4;
+  color: #4a4e74;
+  align-items: center;
+}
+.services-btns:hover {
+  border: 2px solid #4a4e74;
+  text-decoration: underline;
+}
+.p-containers {
+  width: 455px;
+  height: 22px;
+  margin-bottom: 5px;
+  font: normal 600 12px "Inter", sans-serif;
+  color: #d5d4d8;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.divider {
+  width: 471px;
+  height: 0px;
+  margin: 20px 38.5px;
+  border: 1px solid #c3c6db;
+}
+.currency {
+  height: 35px;
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currency-p {
+  width: 105px;
+  height: 35px;
+  margin-right: 50px;
+  font: normal 600 36px "Inter", sans-serif;
+  text-align: center;
+  color: #f5f5f5;
+}
+.currency-n {
+  width: 218px;
+  height: 15px;
+  margin-left: 40px;
+  font: normal 400 12px "Inter", sans-serif;
+  color: #f5f5f5;
+}
+.invoice-btn {
+  width: 473px;
+  height: 44px;
+  padding: 9px 17px 9px 15px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 7px;
+  font: normal 500 16px "Inter", sans-serif;
+  align-self: center;
+  align-items: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  background: #3a69d2;
+  color: #ffff;
+}
+.invoice-btn:hover {
+  background: #d1d4f4;
+  color: #4a4e74;
+}
+.fa-solid {
+  margin-right: 10px;
+}
+.details {
+  /* DETAILS-CONTAINER*/
+  width: 470px;
+  height: 170px;
+  align-self: center;
+}
+.fab-container,
+.paint-container,
+.installation-container {
+  width: 470px;
+  height: 50px;
+  display: flex;
+  align-items: baseline;
+}
+.services {
+  width: 120px;
+  height: 21px;
+  margin: 25px 0;
+  font: normal 700 20px "Inter", sans-serif;
+  color: #f5f5f5;
+}
+.remove-btn {
+  width: 35px;
+  height: 20px;
+  padding: 0;
+  margin-left: 10px;
+  border: none;
+  font: normal 400 9px "Inter", sans-serif;
+  background: none;
+  color: #d5d4d8;
+  cursor: pointer;
+}
+.remove-btn:hover {
+  text-decoration: underline;
+}
+.cost {
+  width: 120px;
+  height: 25px;
+  margin-left: auto;
+  font: normal 300 24px "Inter", sans-serif;
+  letter-spacing: 1.5px;
+  color: #ffff;
+  text-align: right;
+}
+.cost::first-letter {
+  color: #918e9b;
+}

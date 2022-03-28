@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2cb95e15d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Invoice Generator</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading-box">
+            <h1 class="heading">Invoice creator</h1>
+            <p class="heading-p">Thanks for choosing Z-FabTech, LLC!</p>
+        </div> <!-- HEADING-BOX END -->
+        <div class="services-container">
+            <button id="fabrication-btn" class="services-btns">Fabrication</button>
+            <button id="paint-btn" class="services-btns">Primer Paint</button>
+            <button id="installation-btn" class="services-btns">Field Installation</button>
+        </div> <!-- SERVICES CONTAINER END --> 
+        <div id="task-total" class="p-containers">
+            <p>TASK</p>
+            <p>TOTAL</p>
+        </div> <!-- TASK / TOTAL END -->
+             <div id="details-container" class="details">
+                    <div id="fab-container" class="fab-container">
+                        <p class="services">Fabrication</p>
+                        <button id="remove-fab" class="remove-btn">remove</button>
+                        <p class="cost">$100.00</p>
+                    </div> <!-- FAB-CONTAINER END -->
+                    <div id="paint-container" class="paint-container">
+                        <p class="services">Primer Paint</p>
+                        <button id="remove-paint" class="remove-btn">remove</button>
+                        <p class="cost">$80.00</p>
+                    </div> <!-- PAINT-CONTAINER END -->
+                    <div id="installation-container" class="installation-container">
+                        <p class="services">Field Install</p>
+                        <button id="remove-install" class="remove-btn">remove</button>
+                        <p class="cost">$200.00</p>
+                    </div> <!-- INSTALLATION-CONTAINER END -->
+             </div> <!-- DETAILS-CONTAINER END -->
+        <hr class="divider"> <!-- DIVIDER  -->
+        <div class="p-containers">
+            <p>NOTES</p>
+            <p>TOTAL AMOUNT</p>
+        </div> <!-- NOTES / TOTAL AMOUNT END -->
+        <div class="currency">
+            <p class="currency-n">We accept cash, credit card, or PayPal</p>
+            <p id="total-amount" class="currency-p"></p>
+        </div> <!-- CURRENCY CONTAINER END -->
+        <button id="send-btn" class="invoice-btn" hidden><i class="fa-solid fa-envelope"></i> Send Invoice</button>
+    </div>  <!-- MAIN CONTAINER END  -->
+    <script src="index.js"></script>
+</body>
+</html>
+<!--  -->
